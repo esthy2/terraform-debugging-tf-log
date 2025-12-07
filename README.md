@@ -2,7 +2,7 @@
 
 This project demonstrates how to enable and analyze Terraform debug logs using the `TF_LOG` and `TF_LOG_PATH` environment variables on a Linux system running on AWS Lightsail.
 
-## í´§ Tools & Technologies
+## ï¿½ï¿½ï¿½ Tools & Technologies
 - Terraform
 - AWS EC2
 - AWS Lightsail (Linux)
@@ -17,7 +17,7 @@ This project demonstrates how to enable and analyze Terraform debug logs using t
 - Debugging real-world IAM permission issues
 - Provisioning and destroying EC2 infrastructure with Terraform
 
-## í»  Terraform Configuration
+## ï¿½ï¿½ï¿½ Terraform Configuration
 The `main.tf` file provisions a simple EC2 instance:
 ```md
 
@@ -27,21 +27,25 @@ resource "aws_instance" "ec2demo" {
   instance_type = "t2.micro"
 }
 
-```md
+```
 
 ---
-## í³Š Architectur Diagram
+## ï¿½ï¿½ï¿½ Architectur Diagram
 
 ![Terraform Debugging Architecture](simple-architecture.png)
 
 
-í³‚ Debug Log Location
+ï¿½ï¿½ï¿½ Debug Log Location
 /home/ec2-user/debug.log
-í·¹ Cleanup
+
+---
+ï¿½ï¿½ï¿½ Cleanup
 
 All infrastructure was destroyed using:
-
+```
 terraform destroy --auto-approve
-í±©í¿½â€í²» Author
+```
+---
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â€ï¿½ï¿½ï¿½ Author
 
-EsthyTech â€” Cloud & DevOps Engineer íº€
+EsthyTech â€” Cloud & DevOps Engineer ï¿½ï¿½ï¿½
