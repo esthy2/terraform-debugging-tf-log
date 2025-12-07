@@ -28,7 +28,8 @@ resource "aws_instance" "ec2demo" {
 
 ## í³Š Architecture Diagram
 
-![Terraform Debugging Architecture](architecture.png)
+![Terraform Debugging Architecture](simple-architecture.png)
+
 
 í³‚ Debug Log Location
 /home/ec2-user/debug.log

@@ -1,0 +1,17 @@
+digraph terraform_debug {
+  rankdir=LR;
+
+  node [shape=box, style=filled, fillcolor="#e8f0fe"];
+
+  user [label="Esthy (DevOps Engineer)"];
+  lightsail [label="AWS Lightsail\nLinux VM (Terraform Host)"];
+  terraform [label="Terraform CLI\nTF_LOG + TF_LOG_PATH"];
+  aws [label="AWS Provider"];
+  ec2 [label="EC2 Instance\n(t2.micro, us-east-1)"];
+
+  user -> lightsail;
+  lightsail -> terraform;
+  terraform -> aws;
+  aws -> ec2;
+}
+
