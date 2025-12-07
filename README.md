@@ -25,6 +25,11 @@ resource "aws_instance" "ec2demo" {
   ami           = "ami-04d29b6f966df1537"
   instance_type = "t2.micro"
 }
+
+## í³Š Architecture Diagram
+
+![Terraform Debugging Architecture](architecture.png)
+
 í³‚ Debug Log Location
 /home/ec2-user/debug.log
 í·¹ Cleanup
