@@ -19,6 +19,7 @@ This project demonstrates how to enable and analyze Terraform debug logs using t
 
 ## í»  Terraform Configuration
 The `main.tf` file provisions a simple EC2 instance:
+```md
 
 ```hcl
 resource "aws_instance" "ec2demo" {
@@ -26,7 +27,10 @@ resource "aws_instance" "ec2demo" {
   instance_type = "t2.micro"
 }
 
-## í³Š Architecture Diagram
+---
+
+```md
+## í³Š Architectur Diagram
 
 ![Terraform Debugging Architecture](simple-architecture.png)
 
