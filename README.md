@@ -27,9 +27,9 @@ resource "aws_instance" "ec2demo" {
   instance_type = "t2.micro"
 }
 
----
-
 ```md
+
+---
 ## í³Š Architectur Diagram
 
 ![Terraform Debugging Architecture](simple-architecture.png)
